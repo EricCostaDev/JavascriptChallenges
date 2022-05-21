@@ -35,6 +35,7 @@ function generateSecurePassword(length,unique,caps,numbers,special) {
                 password += arr_rand[random_1];
             }   
         }
+        
     }else{
         throw new Error('Password must be at least 4 characters long');
     }
